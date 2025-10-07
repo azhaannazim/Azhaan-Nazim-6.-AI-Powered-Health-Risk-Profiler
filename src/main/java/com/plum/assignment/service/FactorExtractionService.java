@@ -217,6 +217,7 @@ public class FactorExtractionService {
         int totalPossibleFactors = 0;
         int extractedFactors = 0;
 
+        // Count possible factors based on available data
         if (response.getSmoker() != null) {
             totalPossibleFactors++;
             if (factors.contains("smoking")) extractedFactors++;
